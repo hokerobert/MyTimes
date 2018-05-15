@@ -1,7 +1,8 @@
 /* Applied Border To Body */
-body, .headcontainer, .logoitems, .navitems, .column {
+/*body, .headcontainer, .logoitems, .navitems, .column {
   border-style: solid;
 }
+*/
 
 /* Header Style */
 .headcontainer {
@@ -15,9 +16,16 @@ body, .headcontainer, .logoitems, .navitems, .column {
   position: relative;
   margin: 5px;
   padding: 5px;
+  border-bottom: 1px solid black;
 }
 
-.logoitems span {
+.logoitems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoitems #logotitle {
   color: MediumAquamarine;
   margin: 5px;
   padding: 5px;
@@ -30,20 +38,6 @@ body, .headcontainer, .logoitems, .navitems, .column {
 }
 
 /* Main Style */
-.column {
-    display: flex;
-}
 
-.column.large {
-  width: 630px;
-}
-
-.column.medium {
-  width: 300px;
-}
-
-.column.small {
-  width: 240px;
-}
 
 /* Footer Style */
