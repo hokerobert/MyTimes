@@ -1,8 +1,8 @@
 /* Applied Border To Body */
-/*body, .headcontainer, .logoitems, .navitems, .column {
-  border-style: solid;
+div {
+  border: 1px solid black;
 }
-*/
+
 
 /* Header Style */
 .headcontainer {
@@ -38,6 +38,22 @@
 }
 
 /* Main Style */
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
+.column.large {
+width: 630px;
+}
+
+.column.medium {
+width: 300px;
+}
+
+.column.small {
+width: 240px;
+}
 
 /* Footer Style */
